@@ -1,6 +1,6 @@
 body {
 	width: 100%;
-	
+	overflow: auto;
 
 }
 
@@ -10,18 +10,20 @@ h1 {
 	padding-left: 5px;
 	margin-top: 10px !important;
 	color: white;
-	letter-spacing: 0.06em;
-	font-family: times serif;
+	letter-spacing: -0.08em;
+	font-family: compagnon;
 	font-style: italic;
+	font-size: 4vw;
 
 }
 
 p {
 
-	color: yellow;
+	color: blue;
 	font-family: compagnon;
-	font-size: 2rem;
+	font-size: 2vw;
 	font-style: italic;
+
 }
 
 .container-fluid {
@@ -36,10 +38,8 @@ p {
  	max-width: 40em; 
 	padding: 0.5em;
 	float: left;
-	z-index: 0;
-	background-color: pink;
-	top: 700px;
-	left: 200px;
+	
+	background-color: #49fb35;
 	position: absolute;
 
 
@@ -47,16 +47,20 @@ p {
 
 img {
 	width: 100%; 
+	max-height: 100%;
 	z-index: -1
 }
 
 .ui-widget-content {
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-	animation: morphing 8s infinite;
-	text-align: center!important; 	
+	animation: morphingone 8s infinite;
+	text-align: center!important;
+ 	height: 3vw;
+	width: 3%;
+	overflow: hidden;
 }
 
-@keyframes morphing {
+@keyframes morphingone {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
@@ -64,6 +68,7 @@ img {
 
   25% {
     border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
 
   50% {
@@ -73,4 +78,7 @@ img {
 
   75% {
     border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
+    box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
+
+

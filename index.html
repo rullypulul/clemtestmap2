@@ -44,7 +44,7 @@
 <div class="container-fluid">
 
 <div class="col-md-4" style="background: none; z-index: 0; position: absolute;">
-	<!-- <h1>TAPESTRY MAP</h1> -->
+	<h1>Tapestry Map</h1>
 </div>
 
 </div>
@@ -52,84 +52,50 @@
 <div class="container-fluid">
 
 <!-- first marker -->
-<div id="draggable" class="ui-widget-content one" style="top:20%; left: 30%; z-index: 1; text-align: center!important;">
-    <p>The sun is on and off and on and off<br>
-
-        Cette montagne c’est moi<br>
-
-        Keep pushing on<br>
-
-        Un tour de fleur par jour<br></p>
+<div id="draggable" class="ui-widget-content one" style="top:10vw; left: 30%; z-index: 1;">
+    <p>1</p>
 </div>
 
 <!-- second marker -->
-<div id="draggable" class="ui-widget-content two" style="top:37%; left: 60%; z-index: 1; text-align: center!important;" >
-    <p>How long is now?<br>
-
-Eternité<br>
-
-Demain n’existe (peut-être) pas<br>
-
-Respire<br>
-
-Without stake. Without gravity. Without weight. Resign from meaning. Just be here.<br>
-
-on arrête le brain juice<br>
+<div id="draggable" class="ui-widget-content two" style="top:20vw; left: 60%; z-index: 1;" >
+    <p>2
 </p>
 </div>
 
 
 <!-- third marker -->
-<div id="draggable" class="ui-widget-content" style="top:90%; left: 70%; z-index: 1;">
-    <p>Give me more<br>
-
-Donner c’est gratuit + donner c’est cool
+<div id="draggable" class="ui-widget-content three" style="top:40vw; left: 70%; z-index: 1;">
+    <p>3
 </p>
 </div>
 
 
 <!-- fourth marker -->
-<div id="draggable" class="ui-widget-content" style="top: 120%; left: 20%; z-index: 1;">
-    <p>Wow wow wow wow wow wow wow wow wow wow wow wow wow <br>
-
-If I do I do do I  ?  go<br>
-
-Je veux des paillettes<br>
-
-Sentiment de vie
+<div id="draggable" class="ui-widget-content four" style="top: 50vw; left: 20%; z-index: 1;">
+    <p>4
 </p>
 </div>
 
 <!-- fifth marker -->
-<div id="draggable" class="ui-widget-content" style="top:130%; left: 80%; z-index: 1;">
-    <p>La transparence comme état d’être<br>
-
-Faire tomber les murs au lieu de les construire<br>
-
-Take down the walls instead of building them
+<div id="draggable" class="ui-widget-content five" style="top:69vw; left: 80%; z-index: 1;">
+    <p>5
 </p>
 </div>
 
 <!-- sixth marker -->
-<div id="draggable" class="ui-widget-content" style="top:150%; left: 45%; z-index: 1;">
-    <p>L’ennui m’occupe l’esprit. <br>Cérémonie de l’ennui. <br> 
-
-Nous avons tous besoin <br>de bien plus de douceur.
+<div id="draggable" class="ui-widget-content six" style="top: 105vw; left: 70%; z-index: 1;">
+    <p>6
 </p>
 </div>
 
 
 <!-- seventh marker -->
-<div id="draggable" class="ui-widget-content" style="top:190%; left: 30%; z-index: 1;">
-    <p>look at the world collectively<br>  
-
-avec plaisir<br>
-
-‘ TOI Qui que tu sois! Je te suis bien plus proche qu’étranger.’ c’est d’André Chedid, c’est vrai. C’est beau.
+<div id="draggable" class="ui-widget-content seven" style="top:130vw; left: 30%; z-index: 1;">
+    <p>7     
 </p>
 </div>
 
-<img id="pop" src="images/back.png" style="width: 100%;">
+<img id="pop" src="images/back-two-sharp.jpg" style="width: 100%;">
 
 
 </div>
@@ -137,31 +103,28 @@ avec plaisir<br>
 
 <script type="text/javascript">
 
-$(function() {
-        $( ".ui-widget-content" ).draggable({
-        	containment: "parent",
-                // scroll: false,
-                scroll: true, 
- 				scrollSensitivity: 40,
-				scrollSpeed: 40,
+// $(function() {
+//         $( ".ui-widget-content" ).draggable({
+//         	containment: "parent",
+//                 // scroll: false,
+//                 scroll: true, 
+//  				scrollSensitivity: 40,
+// 				scrollSpeed: 40,
 
 				
-				// You can convert the position to percentage on stop event, so when resizing the scrollbar will keep its proportional position. Like this:
-				stop: function(e, ui) {
-    var perc = ui.position.left / ui.helper.parent().width() * 100;
-    ui.helper.css('left', perc + '%');
-  }
-        });
-    });
-
-// $("#scrollbar").draggable({
-//   axis: "x",
-//   containment: 'parent',
-//   stop: function(e, ui) {
+// 				// You can convert the position to percentage on stop event, so when resizing the scrollbar will keep its proportional position. Like this:
+// 				stop: function(e, ui) {
 //     var perc = ui.position.left / ui.helper.parent().width() * 100;
+//     // var peru = ui.position.left / ui.helper.parent().height() * 100;
 //     ui.helper.css('left', perc + '%');
+//     // ui.helper.css('bottom', peru + '%');
+    
+
 //   }
-// });
+//         });
+//     });
+
+
 
 
 </script>
