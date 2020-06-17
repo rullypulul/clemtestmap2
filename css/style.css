@@ -1,6 +1,7 @@
 body {
 	width: 100%;
 	overflow: auto;
+	
 
 }
 
@@ -17,12 +18,15 @@ h1 {
 
 }
 
+
+
+
 p {
 
-	color: blue;
+	
 	font-family: compagnon;
-	font-size: 2vw;
 	font-style: italic;
+	letter-spacing: -0.05em;
 
 }
 
@@ -30,20 +34,23 @@ p {
 	width: 100%; 
 	margin: none;
 	padding: 0 !important;
-	z-index: 1;
-}
-
- #draggable { 
-
- 	max-width: 40em; 
-	padding: 0.5em;
-	float: left;
-	
 	background-color: #49fb35;
-	position: absolute;
-
-
 }
+
+.header {
+	text-align: left!important;
+	overflow: hidden;
+	padding: 0.5em;
+	float: left;			
+	position: absolute;
+	font-size: 20px;
+	color: white;
+	z-index: 1;
+	top:1vw; 
+	left: 1vw;
+}
+
+
 
 img {
 	width: 100%; 
@@ -51,13 +58,342 @@ img {
 	z-index: -1
 }
 
-.ui-widget-content {
+/*one*/
+
+#collapseOne {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 70vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+}
+
+#collapseOne p{
+
+	color: #49fb35
+	
+}
+
+
+
+
+
+#collapseOne-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseOne-T p{
+
+	color: yellow;
+	
+}
+
+
+/*two*/
+
+#collapseTwo {
+
+	z-index: 1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 60vw;	
+	font-style: italic;
+	
+}
+
+#collapseTwo p{
+
+	color: #49fb35
+	
+}
+
+#collapseTwo-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseTwo-T p{
+
+	color: yellow;
+	
+}
+
+/*three*/
+
+#collapseThree {
+
+	z-index: 1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 60vw;	
+	font-style: italic;
+	
+}
+
+#collapseThree p{
+
+	color: #49fb35
+}
+
+#collapseThree-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseThree-T p{
+
+	color: yellow;
+	
+}
+
+/*foue*/
+
+#collapseFour {
+
+	z-index: 1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 60vw;	
+	font-style: italic;
+	
+}
+
+#collapseFour p{
+
+	color: #49fb35
+}
+
+#collapseFour-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseFour-T p{
+
+	color: yellow;
+	
+}
+
+/*five*/
+
+#collapseFive {
+
+	z-index: 1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 60vw;	
+	font-style: italic;
+	
+}
+
+#collapseFive p{
+
+	color: #49fb35
+}
+
+#collapseFive-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseFive-T p{
+
+	color: yellow;
+	
+}
+
+/*six*/
+
+#collapseSix {
+
+	z-index: 1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 60vw;	
+	font-style: italic;
+	
+}
+
+#collapseSix p{
+
+	color: #49fb35
+}
+
+#collapseSix-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseSix-T p{
+
+	color: yellow;
+	
+}
+
+/*seven*/
+
+#collapseSeven {
+
+	z-index: 1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 60vw;	
+	font-style: italic;
+	
+}
+
+#collapseSeven p{
+
+	color: #49fb35
+}
+
+#collapseSeven-T {
+
+	z-index: -1;
+	text-align: left!important;	 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-family: compagnon;
+	font-size: 16px;
+	max-width: 50vw;	
+	font-style: italic;
+	border-radius: 50% / 10%;
+	
+}
+
+#collapseSeven-T p{
+
+	color: yellow;
+	
+}
+.collapse p{
+
+	font-size: 1rem;
+	/*color: white!important;*/
+}
+
+.animation {
 	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
 	animation: morphingone 8s infinite;
 	text-align: center!important;
  	height: 3vw;
-	width: 3%;
+	/*width: 4%;*/
 	overflow: hidden;
+	max-width: 40em; 
+	padding: 0.5em;
+	float: left;	
+	background-color: #49fb35;
+	position: absolute;
+	font-size: 1.2vw;
+	color: black;
+	z-index: 1;
+	
 }
 
 @keyframes morphingone {
@@ -80,5 +416,6 @@ img {
     border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
     box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }
+
 
 
