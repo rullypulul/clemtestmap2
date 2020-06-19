@@ -5,18 +5,7 @@ body {
 
 }
 
-h1 {
 
-	margin-left: 10px;
-	padding-left: 5px;
-	margin-top: 10px !important;
-	color: white;
-	letter-spacing: -0.08em;
-	font-family: compagnon;
-	font-style: italic;
-	font-size: 4vw;
-
-}
 
 
 
@@ -24,9 +13,8 @@ h1 {
 p {
 
 	
-	font-family: compagnon;
-	font-style: italic;
-	letter-spacing: -0.05em;
+	
+	letter-spacing: -0.03em;
 
 }
 
@@ -43,7 +31,7 @@ p {
 	padding: 0.5em;
 	float: left;			
 	position: absolute;
-	font-size: 20px;
+	font-size: 2rem;
 	color: white;
 	z-index: 1;
 	top:1vw; 
@@ -62,17 +50,16 @@ img {
 
 #collapseOne {
 
-	z-index: -1;
+	z-index: 1;
 	text-align: left!important;	 
 	padding: 0.5em;
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
-	font-size: 16px;
-	max-width: 70vw;	
-	font-style: italic;
-	border-radius: 50% / 10%;
+	font-family: helvetica;
+	font-size: 17px;
+	max-width: 60vw;	
+
 }
 
 #collapseOne p{
@@ -93,17 +80,16 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
-	font-style: italic;
-	border-radius: 50% / 10%;
+	
 	
 }
 
 #collapseOne-T p{
 
-	color: yellow;
+	color: white;
 	
 }
 
@@ -118,10 +104,10 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
-	font-size: 16px;
+	font-family: helvetica;
+	font-size: 17px;
 	max-width: 60vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	
 }
 
@@ -139,17 +125,18 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
+	font-style: italic;
 	font-size: 16px;
 	max-width: 50vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	border-radius: 50% / 10%;
 	
 }
 
 #collapseTwo-T p{
 
-	color: yellow;
+	color: white;
 	
 }
 
@@ -163,10 +150,10 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: Helvetica;
 	font-size: 16px;
 	max-width: 60vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	
 }
 
@@ -183,17 +170,17 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	border-radius: 50% / 10%;
 	
 }
 
 #collapseThree-T p{
 
-	color: yellow;
+	color: white;
 	
 }
 
@@ -207,10 +194,10 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: helvetica;
 	font-size: 16px;
 	max-width: 60vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	
 }
 
@@ -227,7 +214,7 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
 	font-style: italic;
@@ -237,7 +224,7 @@ img {
 
 #collapseFour-T p{
 
-	color: yellow;
+	color: white;
 	
 }
 
@@ -251,10 +238,10 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: Helvetica;
 	font-size: 16px;
 	max-width: 60vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	
 }
 
@@ -271,7 +258,7 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
 	font-style: italic;
@@ -281,7 +268,7 @@ img {
 
 #collapseFive-T p{
 
-	color: yellow;
+	color: white;
 	
 }
 
@@ -295,10 +282,10 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: Helvetica;
 	font-size: 16px;
 	max-width: 60vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	
 }
 
@@ -315,7 +302,7 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
 	font-style: italic;
@@ -325,7 +312,7 @@ img {
 
 #collapseSix-T p{
 
-	color: yellow;
+	color: white;
 	
 }
 
@@ -339,10 +326,10 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: Helvetica, sans-serif;
 	font-size: 16px;
 	max-width: 60vw;	
-	font-style: italic;
+	/*font-style: italic;*/
 	
 }
 
@@ -359,7 +346,7 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: compagnon;
+	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
 	font-style: italic;
@@ -369,34 +356,205 @@ img {
 
 #collapseSeven-T p{
 
-	color: yellow;
+	color: white;
 	
 }
+
 .collapse p{
 
-	font-size: 1rem;
+	/*font-size: 2rem;*/
 	/*color: white!important;*/
 }
 
 .animation {
-	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
-	animation: morphingone 8s infinite;
-	text-align: center!important;
+	/*border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;*/
+	/*animation: morphingone 8s infinite;*/
+	text-align: left!important;
  	height: 3vw;
 	/*width: 4%;*/
 	overflow: hidden;
 	max-width: 40em; 
 	padding: 0.5em;
 	float: left;	
-	background-color: #49fb35;
+	background-color: none;
 	position: absolute;
 	font-size: 1.2vw;
-	color: black;
+	color: #49fb35;
 	z-index: 1;
 	
 }
 
-@keyframes morphingone {
+.image {
+	/*border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;*/
+	/*animation: morphingone 8s infinite;*/
+	text-align: center!important;
+ 	height: 4vw;
+	/*width: 4%;*/
+	overflow: hidden;
+	max-width: 40em; 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	font-size: 1.2vw;
+	color: yellow;
+	z-index: 1;
+	
+}
+
+/*#collapseImgOne {
+
+	
+		 
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	
+	
+	max-width: 100%;	
+	font-style: italic;
+	
+}*/
+
+.popupone {
+	padding: 0.5em;
+	float: left;	
+	background-color: none;
+	position: absolute;
+	max-width: 100%;	
+	z-index: 1;
+}
+
+
+
+.dot {
+
+	width: 1vw;
+	height: 1vw;
+	background-color: #49fb35;
+	z-index: -1;
+	text-align: left!important;	 
+	/*padding: 0.5em;*/
+	float: left;	
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(73 251 53 0);	
+	transform: scale(1);
+	animation: pulse-black 2s infinite;
+
+
+}
+
+
+@keyframes pulse-black {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(73, 251, 53, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(73, 251, 53, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(73, 251, 53, 0);
+	}
+}
+
+
+.dotimg {
+
+	width: 1vw;
+	height: 1vw;
+	background-color: #001aff;
+	z-index: -1;
+	text-align: left!important;	 
+	/*padding: 0.5em;*/
+	float: left;	
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(181 179 255 0);	
+	transform: scale(1);
+	animation: pulse-white 2s infinite;
+
+
+}
+
+
+@keyframes pulse-white {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(181,179,255, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(181,179,255, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(181,179,255, 0);
+	}
+}
+
+.dotgroup {
+
+	width: 1vw;
+	height: 1vw;
+	background-color: white;
+	z-index: -1;
+	text-align: left!important;	 
+	/*padding: 0.5em;*/
+	float: left;	
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(181 179 255 0);	
+	transform: scale(1);
+	animation: pulse-yellow 2s infinite;
+
+
+}
+
+
+@keyframes pulse-yellow {
+	0% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(181,179,255, 0.7);
+	}
+	
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px rgba(181,179,255, 0);
+	}
+	
+	100% {
+		transform: scale(0.95);
+		box-shadow: 0 0 0 0 rgba(181,179,255, 0);
+	}
+}
+
+
+/*ul {
+ list-style: none;
+}
+ul li {
+ background: url(../images/bullet.png) no-repeat top left;
+ background-position: 1 0.3vw;
+ line-height: 2;
+
+ font-size: 1.2vw;
+ padding: 0 0 0px 2vw;
+ margin-left: 1vw;
+ font-family: 'IBM Plex Mono', monospace;
+}*/
+
+
+
+/*@keyframes morphingone {
   0% {
     border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
     box-shadow: 15px 15px 50px rgba(77,124,192,0.2);
@@ -415,7 +573,7 @@ img {
   75% {
     border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
     box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
-  }
+  }*/
 
 
 
