@@ -509,6 +509,7 @@
 
 <!-- image here -->
 	
+	
 	<img src="images/BWphotoshoped-tapestry-better.jpg" class="img-fluid" alt="Responsive image">
     
 
@@ -517,62 +518,47 @@
 
 
     <!-- Optional JavaScript -->
-    <script type="text/javascript">
+<script type="text/javascript">
+    
     var button = document.getElementById('hide')
-    button.addEventListener('click',hideshow,false);
-
-    function hideshow() {
-        document.getElementById('hide').style.display = 'block'; 
-        this.style.display = 'none'
-    } 
+    button.addEventListener('click',hide,false);
 
     var button = document.getElementById('hidetwo')
-    button.addEventListener('click',hideshow,false);
-
-    function hideshow() {
-        document.getElementById('hidetwo').style.display = 'block'; 
-        this.style.display = 'none'
-    }   
+    button.addEventListener('click',hide,false);
 
     var button = document.getElementById('hidethree')
-    button.addEventListener('click',hideshow,false);
+    button.addEventListener('click',hide,false);
 
-    function hideshow() {
-        document.getElementById('hidethree').style.display = 'block'; 
-        this.style.display = 'none'
-    } 
+     var button = document.getElementById('hidefour')
+    button.addEventListener('click',hide,false);
 
-    var button = document.getElementById('hidefour')
-    button.addEventListener('click',hideshow,false);
-
-    function hideshow() {
-        document.getElementById('hidefour').style.display = 'block'; 
-        this.style.display = 'none'
-    } 
-
-    var button = document.getElementById('hidefive')
-    button.addEventListener('click',hideshow,false);
-
-    function hideshow() {
-        document.getElementById('hidefive').style.display = 'block'; 
-        this.style.display = 'none'
-    } 
+     var button = document.getElementById('hidefive')
+    button.addEventListener('click',hide,false);
 
     var button = document.getElementById('hidesix')
-    button.addEventListener('click',hideshow,false);
+    button.addEventListener('click',hide,false);
 
-    function hideshow() {
-        document.getElementById('hidesix').style.display = 'block'; 
-        this.style.display = 'none'
+     var button = document.getElementById('hideseven')
+    button.addEventListener('click',hide,true);
+
+
+    function hide() {
+        document.getElementById('hidetwo').style.display = 'block'; 
+        this.style.display = 'none';
+
     } 
 
-    var button = document.getElementById('hideseven')
-    button.addEventListener('click',hideshow,false);
+    
 
-    function hideshow() {
-        document.getElementById('hide').style.display = 'block'; 
-        this.style.display = 'none'
-    } 
+ 
+    
+
+  
+
+   
+
+
+
 </script>
 <!-- <script type="text/javascript">
 	$(document).ready(function(){
