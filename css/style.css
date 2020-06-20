@@ -29,7 +29,7 @@ p {
 	color: white;
 	z-index: 1;
 	top:1vw; 
-	left: 1vw;
+	left: 3%;
 }
 
 
@@ -109,7 +109,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: helvetica;
-	font-size: 17px;
+	font-size: 19px;
 	max-width: 60vw;	
 
 }
@@ -132,8 +132,8 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
-	font-style: italic;
+	font-family: 'Rock Salt', cursive;
+	/*font-style: italic;*/
 	font-size: 16px;
 	max-width: 50vw;	
 	
@@ -178,9 +178,9 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
+	font-family: times;
 	font-style: italic;
-	font-size: 16px;
+	font-size: 18px;
 	max-width: 50vw;	
 	font-style: italic;
 	border-radius: 50% / 10%;
@@ -204,7 +204,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: Helvetica;
-	font-size: 16px;
+	font-size: 17px;
 	max-width: 60vw;	
 	/*font-style: italic;*/
 	
@@ -223,8 +223,8 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
-	font-size: 16px;
+	font-family: times;
+	font-size: 18px;
 	max-width: 50vw;	
 	font-style: italic;
 	border-radius: 50% / 10%;
@@ -248,7 +248,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: helvetica;
-	font-size: 16px;
+	font-size: 17px;
 	max-width: 60vw;	
 	/*font-style: italic;*/
 	
@@ -267,8 +267,8 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
-	font-size: 16px;
+	font-family: times;
+	font-size: 18px;
 	max-width: 50vw;	
 	font-style: italic;
 	border-radius: 50% / 10%;
@@ -292,7 +292,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: Helvetica;
-	font-size: 16px;
+	font-size: 17px;
 	max-width: 60vw;	
 	/*font-style: italic;*/
 	
@@ -311,8 +311,8 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
-	font-size: 16px;
+	font-family: times;
+	font-size: 18px;
 	max-width: 50vw;	
 	font-style: italic;
 	border-radius: 50% / 10%;
@@ -336,7 +336,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: Helvetica;
-	font-size: 16px;
+	font-size: 17px;
 	max-width: 60vw;	
 	/*font-style: italic;*/
 	
@@ -355,8 +355,8 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
-	font-size: 16px;
+	font-family: times;
+	font-size: 18px;
 	max-width: 50vw;	
 	font-style: italic;
 	border-radius: 50% / 10%;
@@ -380,7 +380,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: Helvetica, sans-serif;
-	font-size: 16px;
+	font-size: 17px;
 	max-width: 60vw;	
 	/*font-style: italic;*/
 	
@@ -399,8 +399,8 @@ img {
 	float: left;	
 	background-color: none;
 	position: absolute;
-	font-family: 'IBM Plex Mono', monospace;
-	font-size: 16px;
+	font-family: times;
+	font-size: 18px;
 	max-width: 50vw;	
 	font-style: italic;
 	border-radius: 50% / 10%;
@@ -552,6 +552,7 @@ img {
 	box-shadow: 0 0 0 0 rgba(181 179 255 0);	
 	transform: scale(1);
 	animation: pulse-yellow 2s infinite;
+
 
 
 }
