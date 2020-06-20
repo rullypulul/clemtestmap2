@@ -197,7 +197,7 @@
 
 <!-- Eighth -->
 
-<div class="dotimg" data-toggle="collapse" href="#collapseEighthImg" role="button" aria-expanded="false" aria-controls="collapseEighthImg"  style="top:140vw; left: 20%; z-index: 1;">
+<div class="dotimg" data-toggle="collapse" href="#collapseEighthImg" role="button" aria-expanded="false" aria-controls="collapseEighthImg"  style="top:141vw; left: 20%; z-index: 1;">
 </div>
 <!-- 5853 -->
 <div class="collapse imgpop" id="collapseEighthImg" href="#collapseEighthImg" aria-expanded="false" aria-controls="collapseEighthImg" role="button" data-toggle="collapse" style="top:95vw; left: 3%; z-index: 3;">
@@ -340,7 +340,7 @@
 
 <!-- dot group one -->
 
-<div class="dotgroup " data-toggle="collapse" href="#collapseOne-T" role="button" aria-expanded="false" aria-controls="collapseOne-T"  style="top:89vw; left: 64%; z-index: 1;">
+<div id="hide" class="dotgroup " data-toggle="collapse" href="#collapseOne-T" role="button" aria-expanded="false" aria-controls="collapseOne-T"  style="top:89vw; left: 64%; z-index: 1;">
 </div>
 
 <!-- group one -->
@@ -360,7 +360,7 @@
 
 <!-- dot group two -->
 
-<div class="dotgroup" data-toggle="collapse" href="#collapseTwo-T" role="button" aria-expanded="false" aria-controls="collapseTwo-T"  style="top:97.9vw; left: 22%; z-index: 1;">
+<div id="hidetwo" class="dotgroup" data-toggle="collapse" href="#collapseTwo-T" role="button" aria-expanded="false" aria-controls="collapseTwo-T"  style="top:97.9vw; left: 22%; z-index: 1;">
 </div>
 
 <!-- group two -->
@@ -383,7 +383,7 @@
 
 <!-- dot group three -->
 
-<div class="dotgroup" data-toggle="collapse" href="#collapseThree-T" role="button" aria-expanded="false" aria-controls="collapseThree-T"  style="top:135vw; left: 19%; z-index: 1;">
+<div id="hidethree" class="dotgroup" data-toggle="collapse" href="#collapseThree-T" role="button" aria-expanded="false" aria-controls="collapseThree-T"  style="top:135vw; left: 19%; z-index: 1;">
 </div>
 
 <!-- group three -->
@@ -399,7 +399,7 @@
 
 <!-- dot group four -->
 
-<div class="dotgroup" data-toggle="collapse" href="#collapseFour-T" role="button" aria-expanded="false" aria-controls="collapseFour-T"  style="top:130vw; left: 69%; z-index: 1;">
+<div id="hidefour" class="dotgroup" data-toggle="collapse" href="#collapseFour-T" role="button" aria-expanded="false" aria-controls="collapseFour-T"  style="top:130vw; left: 69%; z-index: 1;">
 </div>
 
 <!-- group four -->
@@ -432,7 +432,7 @@
 
 <!-- dot group five -->
 
-<div class="dotgroup" data-toggle="collapse" href="#collapseFive-T" role="button" aria-expanded="false" aria-controls="collapseFive-T"  style="top:50vw; left: 63%; z-index: 2;">
+<div id="hidefive" class="dotgroup" data-toggle="collapse" href="#collapseFive-T" role="button" aria-expanded="false" aria-controls="collapseFive-T"  style="top:50vw; left: 63%; z-index: 2;">
 </div>
 
 
@@ -460,7 +460,7 @@
 
 <!-- dot group six -->
 
-<div class="dotgroup" data-toggle="collapse" href="#collapseSix-T" role="button" aria-expanded="false" aria-controls="collapseSix-T"  style="top:16vw; left: 36%; z-index: 1;">
+<div id="hidesix" class="dotgroup" data-toggle="collapse" href="#collapseSix-T" role="button" aria-expanded="false" aria-controls="collapseSix-T"  style="top:16vw; left: 36%; z-index: 1;">
 </div>
 
 <!-- group Six -->
@@ -479,7 +479,7 @@
 
 <!-- dot group seven -->
 
-<div class="dotgroup" data-toggle="collapse" href="#collapseSeven-T" role="button" aria-expanded="false" aria-controls="collapseSeven-T"  style="top:60vw; left: 17%; z-index: 1;">
+<div id="hideseven" class="dotgroup" data-toggle="collapse" href="#collapseSeven-T" role="button" aria-expanded="false" aria-controls="collapseSeven-T"  style="top:60vw; left: 17%; z-index: 1;">
 </div>
 
 <!-- group Seven -->
@@ -517,6 +517,63 @@
 
 
     <!-- Optional JavaScript -->
+    <script type="text/javascript">
+    var button = document.getElementById('hide')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hide').style.display = 'block'; 
+        this.style.display = 'none'
+    } 
+
+    var button = document.getElementById('hidetwo')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hidetwo').style.display = 'block'; 
+        this.style.display = 'none'
+    }   
+
+    var button = document.getElementById('hidethree')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hidethree').style.display = 'block'; 
+        this.style.display = 'none'
+    } 
+
+    var button = document.getElementById('hidefour')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hidefour').style.display = 'block'; 
+        this.style.display = 'none'
+    } 
+
+    var button = document.getElementById('hidefive')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hidefive').style.display = 'block'; 
+        this.style.display = 'none'
+    } 
+
+    var button = document.getElementById('hidesix')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hidesix').style.display = 'block'; 
+        this.style.display = 'none'
+    } 
+
+    var button = document.getElementById('hideseven')
+    button.addEventListener('click',hideshow,false);
+
+    function hideshow() {
+        document.getElementById('hideseven').style.display = 'block'; 
+        this.style.display = 'none'
+    } 
+</script>
 <!-- <script type="text/javascript">
 	$(document).ready(function(){
   $(".dotimg").click(function(){
