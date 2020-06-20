@@ -46,6 +46,35 @@ img {
 	z-index: -1
 }
 
+.collapse img {
+	width: 100%; 
+	max-height: 100%;
+	z-index: 1
+}
+
+
+/*Image One*/
+
+#collapseOneImg {
+
+
+	z-index: 3;
+	text-align: left!important;	 
+	/*padding: 0.5em;*/
+	float: left;	
+	background-color: none;
+	position: absolute;
+	transition: none;
+	/*display: none;*/
+	/*font-family: helvetica;*/
+	/*font-size: 17px;*/
+	box-shadow:  30px 30px 20px white;
+	/*border: 3px solid purple;*/
+	
+
+
+}
+
 /*one*/
 
 #collapseOne {
@@ -81,6 +110,7 @@ img {
 	background-color: none;
 	position: absolute;
 	font-family: 'IBM Plex Mono', monospace;
+	font-style: italic;
 	font-size: 16px;
 	max-width: 50vw;	
 	
@@ -129,7 +159,7 @@ img {
 	font-style: italic;
 	font-size: 16px;
 	max-width: 50vw;	
-	/*font-style: italic;*/
+	font-style: italic;
 	border-radius: 50% / 10%;
 	
 }
@@ -173,7 +203,7 @@ img {
 	font-family: 'IBM Plex Mono', monospace;
 	font-size: 16px;
 	max-width: 50vw;	
-	/*font-style: italic;*/
+	font-style: italic;
 	border-radius: 50% / 10%;
 	
 }
@@ -574,6 +604,24 @@ ul li {
     border-radius: 33% 67% 58% 42% / 63% 68% 32% 37%;
     box-shadow: -10px -5px 50px rgba(77,124,192,0.2);
   }*/
+
+
+.btn {
+
+	width: 1vw;
+	height: 1vw;
+	background-color: #001aff;
+	z-index: -1;
+	text-align: left!important;	 
+	/*padding: 0.5em;*/
+	float: left;	
+	position: absolute;
+	border-radius: 50%;
+	box-shadow: 0 0 0 0 rgba(181 179 255 0);	
+	transform: scale(1);
+	animation: pulse-white 2s infinite;
+
+}
 
 
 

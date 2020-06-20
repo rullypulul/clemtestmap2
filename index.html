@@ -36,15 +36,21 @@
 
 <!-- image marker -->
 
-<div class="dotimg" data-toggle="collapse" role="button" data-toggle="modal" data-target="#myModal" style="top:29vw; left: 19%; z-index: 1;"> 
+<div class="dotimg" data-toggle="collapse" href="#collapseOneImg" role="button" aria-expanded="false" aria-controls="collapseOneImg"  style="top:20vw; left: 20%; z-index: 1;">
 </div>
 
-<!-- image pop up -->
-
-<div class="collapse" id="collapseImgOne" data-toggle="collapse" style="top:14vw; left: 10%; z-index: 2;">
-  <img src="images/IMG_5911.jpg" class="popupOne" style=" z-index: 2;">
-
+<!-- group one -->
+<div class="collapse" id="collapseOneImg" href="#collapseOneImg" aria-expanded="false" aria-controls="collapseOneImg" role="button" data-toggle="collapse" style="top:10vw; left: 10%; z-index: 3;">
+  <img src="images/IMG_5911.jpg" class="img-fluid" alt="Responsive image">
 </div>
+
+
+  <!-- <img src="" class="collapse" id="collapseOneImg" data-dismiss="collapse" style="top:10vw; left: 10%; z-index: 1;"> -->
+
+ 
+
+
+
 
 <!--  marker -->
 
@@ -138,7 +144,7 @@
 <!--  definitions four -->
 
 <div class="collapse Four" id="collapseFour" data-toggle="collapse" href="#collapseFour-T" role="button" aria-expanded="false" aria-controls="collapseFour-T" style="top:112vw; left: 65%; z-index: 2;">
-  <p> Space of strength, spontaniety and <br> enthusiasm. Source of power and creation.
+  <p> Space of strength, spontaneity and <br> enthusiasm. Source of power and creation.
 </p>
 </div>
 
@@ -351,6 +357,16 @@
 
 
     <!-- Optional JavaScript -->
+<script type="text/javascript">
+	$(document).ready(function(){
+  $(".dotimg").click(function(){
+    $("#collapseOneImg").fadeIn("slow");
+    // $("#div2").fadeIn("slow");
+    // $("#div3").fadeIn(3000);
+  });
+});
+</script>
+
     <!-- <script type="text/javascript">
     	var mainDiv = document.getElementById('collapseOne-T');
 
