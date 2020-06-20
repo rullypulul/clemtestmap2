@@ -6,14 +6,8 @@ body {
 }
 
 
-
-
-
-
 p {
 
-	
-	
 	letter-spacing: -0.03em;
 
 }
@@ -53,27 +47,56 @@ img {
 }
 
 
-/*Image One*/
+.imgpop {
 
-#collapseOneImg {
-
-
+	width: 50%;
 	z-index: 3;
 	text-align: left!important;	 
-	/*padding: 0.5em;*/
 	float: left;	
 	background-color: none;
 	position: absolute;
-	transition: none;
-	/*display: none;*/
-	/*font-family: helvetica;*/
-	/*font-size: 17px;*/
 	box-shadow:  30px 30px 20px white;
-	/*border: 3px solid purple;*/
 	
-
-
 }
+
+
+/*Image One*/
+#collapseOneImg  {transition: none;position: absolute;}
+/*Image Two*/
+#collapseTwoImg {transition: none;position: absolute;}
+/*Image Three*/
+#collapseThreeImg {transition: none;position: absolute;}
+/*Image Four*/
+#collapseFourImg {transition: none;position: absolute;}
+/*Image Five*/
+#collapseFiveImg {transition: none;position: absolute;}
+/*Image Six*/
+#collapseSixImg {transition: none;position: absolute;}
+/*Image Seven*/
+#collapseSevenImg {transition: none;position: absolute;}
+/*Image Eight*/
+#collapseEightImg {transition: none;position: absolute;}
+/*Image Nine*/
+#collapseNineImg {transition: none;position: absolute;}
+/*Image Ten*/
+#collapseTenImg {transition: none;position: absolute;}
+/*Image Elev*/
+#collapseElevImg {transition: none;position: absolute;}
+/*Image Twelv*/
+#collapseTwelvImg {transition: none;position: absolute;}
+/*Image Thir*/
+#collapseThirImg {transition: none;position: absolute;}
+/*Image Fourt*/
+#collapseFourtImg {transition: none;position: absolute;}
+/*Image Fift*/
+#collapseFiftImg {transition: none;position: absolute;}
+/*Image Sixt*/
+#collapseSixtImg {transition: none;position: absolute;}
+/*Image Sevent*/
+#collapseSeventImg {transition: none;position: absolute;}
+/*Image Eighth*/
+#collapseEighthImg {transition: none;position: absolute;}
+
 
 /*one*/
 
@@ -414,23 +437,7 @@ img {
 	
 }
 
-.image {
-	/*border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;*/
-	/*animation: morphingone 8s infinite;*/
-	text-align: center!important;
- 	height: 4vw;
-	/*width: 4%;*/
-	overflow: hidden;
-	max-width: 40em; 
-	padding: 0.5em;
-	float: left;	
-	background-color: none;
-	position: absolute;
-	font-size: 1.2vw;
-	color: yellow;
-	z-index: 1;
-	
-}
+
 
 /*#collapseImgOne {
 
